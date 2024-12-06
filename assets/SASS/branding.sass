@@ -1,11 +1,25 @@
 /* Establish over-arching webpage branding */
 
-/* Import Font*/
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap')
 
+// Font Variables
+$mainFont: 'Maven Pro', sans-serif
 
-/* Background & Shading Properties */
-$mainBackground: #353535;
-$mainAccent: #525252;
-$superAccent: #A51223;
-$subAccent: #810E1C;
+// Color Variables
+$mainBackground: #353535
+$mainAccent: #525252
+$superAccent: #A51223
+$subAccent: #810E1C
+
+// Create Styles For Compilation
+
+/* Foundational Layers */
+body
+    color: $mainBackground
+    font: $mainFont
+
+nav
+    color: $mainAccent
+    font: $mainFont
+
