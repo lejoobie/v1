@@ -3,11 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap");
 /* Foundational Layers */
 body {
-  color: #353535;
+  background-color: #353535;
   font: "Maven Pro", sans-serif;
 }
 
 nav {
-  color: #525252;
+  background-color: #525252;
   font: "Maven Pro", sans-serif;
 }/*# sourceMappingURL=branding.css.map */
