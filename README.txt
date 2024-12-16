@@ -1,5 +1,4 @@
-
-This is simply a portfolio gallery made by and for Jonathan Cales.
+This is my first portfolio website built strictly with HTML, CSS and SASS and is mostly an experimental endevour learning full-stack development.
 As per the license, you are free to copy and tweak this work to be unique to you and use it as you wish.
 
 Most of the information regarding this project will be on the actual website itself.
