@@ -14,23 +14,45 @@ $subAccent: #810E1C
 
 // Structural Styling
 body
-    background-image: linear-gradient(to bottom right, $baseColor, $baseColor, $baseColor, $subAccent, $subAccent)
+    background-image: linear-gradient($baseColor, $baseColor, $baseColor, $subAccent)
     background-attachment: fixed
     font-family: $mainFont
 
-.mainContent
-    width: 40%
+// Header Class Styling
+.header
+    width: 30%
+    height: 300px
     padding-left: 15px
     padding-right: 15px
     padding-top: 10px
     padding-bottom: 10px
-    height: 300px
     margin-top: 50px
     margin-right: auto
     margin-left: 80px
+    p
+        font-size: 15pt
 
-// Text Styling
+    h1
+        font-size: 50pt
+        margin-bottom: 1px
+
+
+//Content Class Styling
+.content
+    margin-right: auto
+    margin-left: 80px
+    p
+        font-size: 15pt
+        margin-top: 0px
+
+
+// Default Text Styling
 h1
+    color: white
+    text-align: left
+    font-weight: bold
+
+h2
     color: white
     text-align: left
     font-weight: normal
