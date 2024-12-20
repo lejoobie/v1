@@ -1,5 +1,11 @@
 /* Establish over-arching webpage branding */
 
+/* CSS/SASS Boilerplate */
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
 /* Import Font */
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap')
 
@@ -7,16 +13,49 @@
 $mainFont: 'Maven Pro', sans-serif
 
 // Color Variables
-$baseColor: #353535
-$baseAccent: #525252
-$superAccent: #A51223
-$subAccent: #810E1C
+$baseColor: #1F1F1F
+$accent: #810E1C
+$accent2: #141414
 
-// Structural Styling
+// Head Styling
+head
+    font-family: $mainFont
+
+
+// Body Styling
 body
-    background-image: linear-gradient($baseColor, $baseColor, $baseColor, $subAccent)
+    background-image: linear-gradient($baseColor, $baseColor, $baseColor, $baseColor, $baseColor, $accent)
     background-attachment: fixed
     font-family: $mainFont
+    margin: 0
+
+// Navigation Styling
+nav
+    background-color: $accent2
+    font-family: $mainFont
+    padding-left: 15px
+    padding-right: 15px
+    padding-top: 15px
+    padding-bottom: 15px
+    width: 100%
+    height: 50px
+    ul
+        float: right
+        overflow: hidden
+
+    li
+        list-style-type: none
+        display: inline
+        padding: 10px
+        a
+            color: white
+            text-decoration: none
+            text-align: center
+        a:hover
+            background-color: $accent
+
+.navigation
+    text-align: right
 
 // Header Class Styling
 .header
@@ -24,17 +63,19 @@ body
     height: 300px
     padding-left: 15px
     padding-right: 15px
-    padding-top: 10px
     padding-bottom: 10px
     margin-top: 50px
     margin-right: auto
     margin-left: 80px
-    p
-        font-size: 15pt
-
     h1
         font-size: 50pt
-        margin-bottom: 1px
+        padding-top: 20px
+        padding-bottom: 10px
+    p
+        font-size: 15pt
+        padding-bottom: 20px
+    hr
+        width: 70%
 
 
 //Content Class Styling
@@ -61,3 +102,6 @@ p
     color: white
     text-align: left
     font-weight: lighter
+
+li
+    color: white
