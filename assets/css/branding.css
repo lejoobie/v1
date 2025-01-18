@@ -42,13 +42,17 @@ nav li a {
   color: white;
   text-decoration: none;
   text-align: center;
+  background-color: #141414;
 }
 nav li a:hover {
-  background-color: #810E1C;
+  color: #DC182F;
+  transition: ease, 0.7s;
+  background-attachment: fixed;
 }
 
 .navigation {
   text-align: right;
+  overflow: hidden;
 }
 
 .header {
