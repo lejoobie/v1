@@ -16,6 +16,8 @@ $mainFont: 'Maven Pro', sans-serif
 $baseColor: #1F1F1F
 $accent: #810E1C
 $accent2: #141414
+$linkHov: #DC182F
+
 
 // Head Styling
 head
@@ -51,11 +53,15 @@ nav
             color: white
             text-decoration: none
             text-align: center
+            background-color: $accent2
         a:hover
-            background-color: $accent
+            color: $linkHov
+            transition: ease, .7s
+            background-attachment: fixed
 
 .navigation
     text-align: right
+    overflow: hidden
 
 // Header Class Styling
 .header
