@@ -18,18 +18,73 @@ $accent: #810E1C
 $accent2: #141414
 $linkHov: #DC182F
 
+// Default Text Styling
+h1
+    color: white
+    text-align: left
+    font-weight: bold
+
+h2
+    color: white
+    text-align: left
+    font-weight: normal
+
+p
+    color: white
+    text-align: left
+    font-weight: lighter
+
+li
+    color: white
 
 // Head Styling
 head
     font-family: $mainFont
-
 
 // Body Styling
 body
     background-image: linear-gradient($baseColor, $baseColor, $baseColor, $baseColor, $baseColor, $accent)
     background-attachment: fixed
     font-family: $mainFont
-    margin: 0
+    display: flex
+    flex-direction: column
+    justify-content: left
+    min-height: 800px
+    align-items: center
+    flex-wrap: wrap
+    // Header Class Styling
+    .header
+        max-height: 200px
+        width: 1000px
+        padding-top: 100px
+        padding-left: 80px
+        padding-right: 80px
+        padding-bottom: 250px
+        align-items: center
+        h1
+            font-size: 60pt
+            margin-bottom: 15px
+            text-align: center
+            font-weight: normal
+        p
+            font-size: 18pt
+            text-align: center
+            padding-bottom: 12px
+
+        hr
+            display: block
+            width: 100%
+    //Content Class Styling
+    .content
+        max-height: 200px
+        width: 1000px
+        padding-left: 80px
+        padding-right: 80px
+        padding-bottom: 250px
+        align-items: center
+        p
+            text-align: center
+            font-size: 15pt
 
 // Navigation Styling
 nav
@@ -58,46 +113,16 @@ nav
             color: $linkHov
             transition: ease, .7s
             background-attachment: fixed
-
-.navigation
-    text-align: right
-    overflow: hidden
-
-// Header Class Styling
-.header
-    width: 30%
-    height: 300px
-    padding-left: 15px
-    padding-right: 15px
-    padding-bottom: 10px
-    margin-top: 50px
-    margin-right: auto
-    margin-left: 80px
-    h1
-        font-size: 50pt
-        padding-top: 20px
-        padding-bottom: 10px
-    p
-        font-size: 15pt
-        padding-bottom: 20px
-    hr
-        width: 70%
-
-
-//Content Class Styling
-.content
-    margin-right: auto
-    margin-left: 80px
-    p
-        font-size: 15pt
-        margin-top: 0px
-
+        .navigation
+            text-align: right
+            overflow: hidden
 
 // Default Text Styling
 h1
     color: white
     text-align: left
     font-weight: bold
+    
 
 h2
     color: white
