@@ -34,6 +34,53 @@ head {
   font-family: "Maven Pro", sans-serif;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+  font-family: "Maven Pro", sans-serif;
+  padding: 15px;
+  width: 100%;
+  height: 70px;
+  /* Navigation Menu */
+  /* List Items */
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  padding: 0 15px;
+  font-size: 17px;
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background-color: #141414;
+}
+nav li a:hover {
+  color: #DC182F;
+  transition: ease 0.7s;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+nav .logo img {
+  height: 45px;
+  width: auto;
+  margin-right: 15px;
+}
+nav .logo span {
+  color: white;
+  font-size: 15pt;
+}
+
 body {
   background-image: linear-gradient(#1F1F1F, #1F1F1F, #1F1F1F, #1F1F1F, #1F1F1F, #810E1C);
   background-attachment: fixed;
@@ -41,14 +88,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  min-height: 800px;
   align-items: center;
   flex-wrap: wrap;
 }
 body .header {
   max-height: 200px;
-  width: 1000px;
-  padding-top: 100px;
+  width: 100%;
+  padding-top: 10px;
   padding-left: 80px;
   padding-right: 80px;
   padding-bottom: 250px;
@@ -71,50 +117,27 @@ body .header hr {
 }
 body .content {
   max-height: 200px;
-  width: 1000px;
+  width: 100%;
   padding-left: 80px;
   padding-right: 80px;
   padding-bottom: 250px;
   align-items: center;
+  background-color: #141414;
 }
 body .content p {
   text-align: center;
   font-size: 15pt;
 }
-
-nav {
-  background-color: #141414;
-  font-family: "Maven Pro", sans-serif;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 100%;
-  height: 50px;
+body .content .About {
+  align-items: left;
+  border: 8px, solid black;
 }
-nav ul {
-  float: right;
-  overflow: hidden;
+body .content .About h1 {
+  font-weight: normal;
 }
-nav li {
-  list-style-type: none;
-  display: inline;
-  padding: 10px;
-}
-nav li a {
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  background-color: #141414;
-}
-nav li a:hover {
-  color: #DC182F;
-  transition: ease, 0.7s;
-  background-attachment: fixed;
-}
-nav li .navigation {
-  text-align: right;
-  overflow: hidden;
+body .content .Gallery {
+  border: 8px, solid black;
+  align-items: right;
 }
 
 h1 {
