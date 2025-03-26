@@ -10,4 +10,4 @@ The repository linked is not collaborative, however criticsm of the project is a
 
 Thank you.
 
-- Jon
+ - Jon
