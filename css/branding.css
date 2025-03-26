@@ -83,7 +83,7 @@ body {
   flex-wrap: wrap;
 }
 body .header {
-  background-image: url("../img/sfBanner.png");
+  background-image: url("/img/sfBanner.png");
   background-blend-mode: lighten;
   background-color: #000;
   height: 100%;
