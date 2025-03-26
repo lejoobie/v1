@@ -7,10 +7,11 @@
     box-sizing: border-box
 
 /* Import Font */
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Rock+Salt&display=swap')
 
 // Font Variables
 $mainFont: 'Maven Pro', sans-serif
+$headingFont: "Rock Salt", cursive
 
 // Color Variables
 $baseColor: #1F1F1F
@@ -37,16 +38,12 @@ p
 li
     color: white
 
-// Head Styling
-head
-    font-family: $mainFont
-
 // Navigation Styling
 nav
     display: flex
     justify-content: space-between
     align-items: center
-    background-color: $accent2
+    background-color: $baseColor
     font-family: $mainFont
     padding: 15px
     width: 100%
@@ -92,62 +89,68 @@ body
     background-color: $baseColor
     font-family: $mainFont
     display: flex
-    flex-direction: column
-    justify-content: left
-    align-items: center
     flex-wrap: wrap
     // Header Class Styling
     .header
         background-image: url('/images/sfBanner.png')
+        background-blend-mode: lighten
         background-color: #000
         height: 100%
         width: 100%
-        padding-top: 175px
-        padding-bottom: 250px
+        padding-top: 300px
+        padding-bottom: 300px
         align-items: center
+        border: 1px solid $accent
+        border-left: none
+        border-right: none
         h1
             font-size: 60pt
-            margin-bottom: 15px
             text-align: center
             font-weight: normal
+            font-family: $headingFont
         p
-            font-size: 18pt
+            font-size: 20pt
             text-align: center
-
-    //Content Class Styling
-    .content
-        height: 100%
+    //About Class Styling
+    .about
+        padding: 30px 100px 80px 80px
         width: 100%
-        padding-left: 80px
-        padding-right: 80px
-        padding-bottom: 80px
+        box-sizing: border-box
+        justify-content: center
         align-items: center
         background-color: $accent2
-        p
+        h1
+            font-weight: normal
+            padding-bottom: 20px
+            font-family: $headingFont
             text-align: center
+        span
+            color: white
             font-size: 15pt
-        .About
-            align-items: left
-            h1
-                font-weight: normal
-        .Gallery
-            align-items: right
+            
+        img
+            border-radius: 100%
+            max-width: 30%
+            max-height: 30%
+            text-align: center
+        p
+            padding-top: 20px
+            font-size: 16pt
+            text-align: center
+            width: 55%
 
 // Default Text Styling
 h1
     color: white
-    text-align: left
     font-weight: bold
     
 
 h2
     color: white
-    text-align: left
     font-weight: normal
 
 p
     color: white
-    text-align: left
     font-weight: lighter
 
 li

@@ -1,6 +1,6 @@
 /* Establish over-arching webpage branding */
 /* CSS/SASS Boilerplate */
-@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Rock+Salt&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -30,15 +30,11 @@ li {
   color: white;
 }
 
-head {
-  font-family: "Maven Pro", sans-serif;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #141414;
+  background-color: #1F1F1F;
   font-family: "Maven Pro", sans-serif;
   padding: 15px;
   width: 100%;
@@ -84,68 +80,74 @@ body {
   background-color: #1F1F1F;
   font-family: "Maven Pro", sans-serif;
   display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: center;
   flex-wrap: wrap;
 }
 body .header {
   background-image: url("/images/sfBanner.png");
+  background-blend-mode: lighten;
   background-color: #000;
   height: 100%;
   width: 100%;
-  padding-top: 175px;
-  padding-bottom: 250px;
+  padding-top: 300px;
+  padding-bottom: 300px;
   align-items: center;
+  border: 1px solid #E79223;
+  border-left: none;
+  border-right: none;
 }
 body .header h1 {
   font-size: 60pt;
-  margin-bottom: 15px;
   text-align: center;
   font-weight: normal;
+  font-family: "Rock Salt", cursive;
 }
 body .header p {
-  font-size: 18pt;
+  font-size: 20pt;
   text-align: center;
 }
-body .content {
-  height: 100%;
+body .about {
+  padding: 30px 100px 80px 80px;
   width: 100%;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 80px;
+  box-sizing: border-box;
+  justify-content: center;
   align-items: center;
   background-color: #141414;
 }
-body .content p {
+body .about h1 {
+  font-weight: normal;
+  padding-bottom: 20px;
+  font-family: "Rock Salt", cursive;
   text-align: center;
+}
+body .about span {
+  color: white;
   font-size: 15pt;
 }
-body .content .About {
-  align-items: left;
+body .about img {
+  border-radius: 100%;
+  max-width: 30%;
+  max-height: 30%;
+  text-align: center;
 }
-body .content .About h1 {
-  font-weight: normal;
-}
-body .content .Gallery {
-  align-items: right;
+body .about p {
+  padding-top: 20px;
+  font-size: 16pt;
+  text-align: center;
+  width: 55%;
 }
 
 h1 {
   color: white;
-  text-align: left;
   font-weight: bold;
 }
 
 h2 {
   color: white;
-  text-align: left;
   font-weight: normal;
 }
 
 p {
   color: white;
-  text-align: left;
   font-weight: lighter;
 }
 
