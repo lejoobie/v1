@@ -1,0 +1,157 @@
+/* Establish over-arching webpage branding */
+
+/* CSS/SASS Boilerplate */
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Rock+Salt&display=swap')
+
+// Font Variables
+$mainFont: 'Maven Pro', sans-serif
+$headingFont: "Rock Salt", cursive
+
+// Color Variables
+$baseColor: #1F1F1F
+$accent: #E79223
+$accent2: #141414
+$linkHov: #E88821
+
+// Default Text Styling
+h1
+    color: white
+    text-align: left
+    font-weight: bold
+
+h2
+    color: white
+    text-align: left
+    font-weight: normal
+
+p
+    color: white
+    text-align: left
+    font-weight: lighter
+
+li
+    color: white
+
+// Navigation Styling
+nav
+    display: flex
+    justify-content: space-between
+    align-items: center
+    background-color: $baseColor
+    font-family: $mainFont
+    padding: 15px
+    width: 100%
+    height: 70px
+
+    /* Navigation Menu */
+    ul
+        list-style-type: none
+        display: flex
+        margin-left: auto
+        margin: 0
+        padding: 0
+
+    /* List Items */
+    li
+        padding: 0 15px 
+        font-size: 17px
+        
+        a
+            color: white
+            text-decoration: none
+            text-align: center
+
+            &:hover
+                color: $linkHov
+                transition: ease 0.7s
+    .logo
+        display: flex
+        align-items: center
+        
+        img
+            height: 45px
+            width: auto
+            margin-right: 15px
+            
+        span
+            color: white
+            font-size: 15pt
+
+
+// Body Styling
+body
+    background-color: $baseColor
+    font-family: $mainFont
+    display: flex
+    flex-wrap: wrap
+    // Header Class Styling
+    .header
+        background-image: url('/images/sfBanner.png')
+        background-blend-mode: lighten
+        background-color: #000
+        height: 100%
+        width: 100%
+        padding-top: 300px
+        padding-bottom: 300px
+        align-items: center
+        border: 1px solid $accent
+        border-left: none
+        border-right: none
+        h1
+            font-size: 60pt
+            text-align: center
+            font-weight: normal
+            font-family: $headingFont
+        p
+            font-size: 20pt
+            text-align: center
+    //About Class Styling
+    .about
+        padding: 30px 100px 80px 80px
+        width: 100%
+        box-sizing: border-box
+        justify-content: center
+        align-items: center
+        background-color: $accent2
+        h1
+            font-weight: normal
+            padding-bottom: 20px
+            font-family: $headingFont
+            text-align: center
+        span
+            color: white
+            font-size: 15pt
+            
+        img
+            border-radius: 100%
+            max-width: 30%
+            max-height: 30%
+            text-align: center
+        p
+            padding-top: 20px
+            font-size: 16pt
+            text-align: center
+            width: 55%
+
+// Default Text Styling
+h1
+    color: white
+    font-weight: bold
+    
+
+h2
+    color: white
+    font-weight: normal
+
+p
+    color: white
+    font-weight: lighter
+
+li
+    color: white
