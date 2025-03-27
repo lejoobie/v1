@@ -178,7 +178,8 @@ body .experience .institutions {
 }
 body .experience .institutions img {
   border-radius: 100%;
-  max-width: 25%;
+  max-width: 30%;
+  padding: 20px;
   height: auto;
 }
 body .experience .software {
