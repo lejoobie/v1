@@ -127,11 +127,12 @@ body .about h1 {
 }
 body .about img {
   border-radius: 100%;
-  max-width: 30%;
-  max-height: 30%;
+  max-width: 15%;
+  height: auto;
 }
 body .about p {
   padding-top: 40px;
+  padding-bottom: 40px;
   font-size: 16pt;
   text-align: center;
   width: 55%;
