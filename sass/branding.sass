@@ -190,9 +190,27 @@ body
                 transition: max-width 0.5s
         .software
             display: flex
+            flex-wrap: wrap
+            flex-direction: column
             flex: 50%
-            justify-content: center
+            width: 80%
             border: 1px solid $accent
             border-top: none
             border-bottom: none
             border-right: none
+            h1
+                text-align: center
+            .soft-logo
+                display: table
+                margin-left: auto
+                width: 90%
+                img
+                    max-width: 15%
+                    padding: 30px
+                    height: auto
+                    transition: max-width 0.5s
+                img:hover
+                    filter: grayscale(0%)
+                    transition: filter 0.5s
+                    max-width: 20%
+                    transition: max-width 0.5s

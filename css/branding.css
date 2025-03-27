@@ -195,10 +195,32 @@ body .experience .institutions img:hover {
 }
 body .experience .software {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   flex: 50%;
-  justify-content: center;
+  width: 80%;
   border: 1px solid #E79223;
   border-top: none;
   border-bottom: none;
   border-right: none;
+}
+body .experience .software h1 {
+  text-align: center;
+}
+body .experience .software .soft-logo {
+  display: table;
+  margin-left: auto;
+  width: 90%;
+}
+body .experience .software .soft-logo img {
+  max-width: 15%;
+  padding: 30px;
+  height: auto;
+  transition: max-width 0.5s;
+}
+body .experience .software .soft-logo img:hover {
+  filter: grayscale(0%);
+  transition: filter 0.5s;
+  max-width: 20%;
+  transition: max-width 0.5s;
 }/*# sourceMappingURL=branding.css.map */
