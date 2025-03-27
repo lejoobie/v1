@@ -30,6 +30,18 @@ li {
   color: white;
 }
 
+em {
+  font-style: normal;
+  color: #E79223;
+  transition: ease-out 2s;
+}
+
+em:hover {
+  color: #E88821;
+  font-size: 18pt;
+  transition: ease 2s;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
