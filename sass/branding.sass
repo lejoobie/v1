@@ -120,6 +120,10 @@ body
             font-weight: normal
             font-family: $headingFont
             text-shadow: 5px 5px 10px black
+            transition: ease-out 1s
+        h1:hover
+            transition: ease-in 1s
+            font-size: 75pt
         p
             font-size: 20pt
             text-align: center
@@ -155,7 +159,6 @@ body
         display: flex
         flex-direction: row
         width: 100%
-        background-color: $accent2
         h1
             font-weight: normal
             padding-top: 20px
@@ -163,12 +166,18 @@ body
             font-family: $headingFont
         .institutions
             display: flex
-            flex: 50%
+            flex-direction: column
+            flex: 25%
             justify-content: center
+            align-items: center
             border: 1px solid $accent
             border-left: none
             border-top: none
             border-bottom: none
+            img
+                border-radius: 100%
+                max-width: 25%
+                height: auto
         .software
             display: flex
             flex: 50%
