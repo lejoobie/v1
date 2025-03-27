@@ -90,8 +90,11 @@ body
     font-family: $mainFont
     display: flex
     flex-wrap: wrap
+    justify-content: center
     // Header Class Styling
     .header
+        display: flex
+        flex-direction: column
         background-image: url('../img/banner.png')
         background-blend-mode: lighten
         background-color: #000
@@ -113,10 +116,10 @@ body
             text-align: center
     //About Class Styling
     .about
+        display: flex
+        flex-direction: column
         padding: 30px 100px 80px 80px
         width: 100%
-        box-sizing: border-box
-        justify-content: center
         align-items: center
         background-color: $accent2
         h1
@@ -127,7 +130,6 @@ body
         span
             color: white
             font-size: 15pt
-            
         img
             border-radius: 100%
             max-width: 30%

@@ -81,8 +81,11 @@ body {
   font-family: "Maven Pro", sans-serif;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 body .header {
+  display: flex;
+  flex-direction: column;
   background-image: url("../img/banner.png");
   background-blend-mode: lighten;
   background-color: #000;
@@ -106,10 +109,10 @@ body .header p {
   text-align: center;
 }
 body .about {
+  display: flex;
+  flex-direction: column;
   padding: 30px 100px 80px 80px;
   width: 100%;
-  box-sizing: border-box;
-  justify-content: center;
   align-items: center;
   background-color: #141414;
 }
