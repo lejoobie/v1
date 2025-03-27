@@ -41,12 +41,13 @@ li
 em
     font-style: normal
     color: $accent
-    transition: ease-out 2s
+    font-size: 16pt
+    transition: font-size 1s
 
 em:hover
     color: $linkHov
-    font-size: 18pt
-    transition: ease 2s
+    font-size: 20pt
+    transition: ease-in 1s
 
 // Navigation Styling
 nav
@@ -120,7 +121,7 @@ body
             font-weight: normal
             font-family: $headingFont
             text-shadow: 5px 5px 10px black
-            transition: ease-out 1s
+            transition: font-size 1s
         h1:hover
             transition: ease-in 1s
             font-size: 75pt
@@ -164,6 +165,8 @@ body
             padding-top: 20px
             padding-bottom: 20px
             font-family: $headingFont
+        img
+            filter: grayscale(100%)
         .institutions
             display: flex
             flex-direction: column
@@ -179,6 +182,12 @@ body
                 max-width: 30%
                 padding: 20px
                 height: auto
+                transition: max-width 0.5s
+            img:hover
+                filter: grayscale(0%)
+                transition: filter 0.5s
+                max-width: 40%
+                transition: max-width 0.5s
         .software
             display: flex
             flex: 50%

@@ -33,13 +33,14 @@ li {
 em {
   font-style: normal;
   color: #E79223;
-  transition: ease-out 2s;
+  font-size: 16pt;
+  transition: font-size 1s;
 }
 
 em:hover {
   color: #E88821;
-  font-size: 18pt;
-  transition: ease 2s;
+  font-size: 20pt;
+  transition: ease-in 1s;
 }
 
 nav {
@@ -114,7 +115,7 @@ body .header h1 {
   font-weight: normal;
   font-family: "Rock Salt", cursive;
   text-shadow: 5px 5px 10px black;
-  transition: ease-out 1s;
+  transition: font-size 1s;
 }
 body .header h1:hover {
   transition: ease-in 1s;
@@ -165,6 +166,9 @@ body .experience h1 {
   padding-bottom: 20px;
   font-family: "Rock Salt", cursive;
 }
+body .experience img {
+  filter: grayscale(100%);
+}
 body .experience .institutions {
   display: flex;
   flex-direction: column;
@@ -181,6 +185,13 @@ body .experience .institutions img {
   max-width: 30%;
   padding: 20px;
   height: auto;
+  transition: max-width 0.5s;
+}
+body .experience .institutions img:hover {
+  filter: grayscale(0%);
+  transition: filter 0.5s;
+  max-width: 40%;
+  transition: max-width 0.5s;
 }
 body .experience .software {
   display: flex;
