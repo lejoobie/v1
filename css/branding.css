@@ -136,4 +136,34 @@ body .about p {
   font-size: 16pt;
   text-align: center;
   width: 55%;
+}
+body .experience {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #141414;
+}
+body .experience h1 {
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Rock Salt", cursive;
+}
+body .experience .institutions {
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+  border: 1px solid #E79223;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+body .experience .software {
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+  border: 1px solid #E79223;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
 }/*# sourceMappingURL=branding.css.map */
