@@ -163,37 +163,46 @@ body
         h1
             font-weight: normal
             padding-top: 20px
-            padding-bottom: 20px
+
             font-family: $headingFont
         img
             filter: grayscale(100%)
         .institutions
             display: flex
             flex-direction: column
-            flex: 25%
+            flex: 50%
+            width: 100%
             justify-content: center
             align-items: center
             border: 1px solid $accent
             border-left: none
             border-top: none
             border-bottom: none
-            img
-                border-radius: 100%
-                max-width: 30%
-                padding: 20px
-                height: auto
-                transition: max-width 0.5s
-            img:hover
-                filter: grayscale(0%)
-                transition: filter 0.5s
-                max-width: 40%
-                transition: max-width 0.5s
+            h1
+                text-align: center
+                padding: 0
+            .inst-logo
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+                align-items: center
+                img
+                    border-radius: 100%
+                    max-width: 25%
+                    padding: 20px
+                    height: auto
+                    transition: max-width 0.5s
+                img:hover
+                    filter: grayscale(0%)
+                    transition: filter 0.5s
+                    max-width: 30%
+                    transition: max-width 0.5s
         .software
             display: flex
             flex-wrap: wrap
             flex-direction: column
             flex: 50%
-            width: 80%
+            width: 100%
             border: 1px solid $accent
             border-top: none
             border-bottom: none
@@ -201,11 +210,12 @@ body
             h1
                 text-align: center
             .soft-logo
-                display: table
-                margin-left: auto
-                width: 90%
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+                align-items: center
                 img
-                    max-width: 15%
+                    max-width: 16%
                     padding: 30px
                     height: auto
                     transition: max-width 0.5s
