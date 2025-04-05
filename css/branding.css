@@ -171,9 +171,9 @@ body .experience img {
 body .experience .institutions {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   flex: 50%;
   width: 100%;
-  justify-content: center;
   align-items: center;
   border: 1px solid #E79223;
   border-left: none;
@@ -182,7 +182,6 @@ body .experience .institutions {
 }
 body .experience .institutions h1 {
   text-align: center;
-  padding: 0;
 }
 body .experience .institutions .inst-logo {
   display: flex;
@@ -192,7 +191,7 @@ body .experience .institutions .inst-logo {
 }
 body .experience .institutions .inst-logo img {
   border-radius: 100%;
-  max-width: 25%;
+  max-width: 30%;
   padding: 20px;
   height: auto;
   transition: max-width 0.5s;
@@ -200,7 +199,7 @@ body .experience .institutions .inst-logo img {
 body .experience .institutions .inst-logo img:hover {
   filter: grayscale(0%);
   transition: filter 0.5s;
-  max-width: 30%;
+  max-width: 35%;
   transition: max-width 0.5s;
 }
 body .experience .software {
