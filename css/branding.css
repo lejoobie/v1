@@ -142,7 +142,6 @@ body .about {
   width: 100%;
   align-items: center;
   background-color: #141414;
-  border: 1px solid #E79223;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -165,20 +164,21 @@ body .about p {
   text-align: center;
   width: 55%;
 }
-body .experience {
+body .experiences {
   display: flex;
   flex-direction: row;
   width: 100%;
+  border-block: 1px solid #E79223;
 }
-body .experience h1 {
+body .experiences h1 {
   font-weight: normal;
   padding-top: 20px;
   font-family: "Rock Salt", cursive;
 }
-body .experience img {
+body .experiences img {
   filter: grayscale(100%);
 }
-body .experience .institutions {
+body .experiences .institutions {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -190,29 +190,29 @@ body .experience .institutions {
   border-top: none;
   border-bottom: none;
 }
-body .experience .institutions h1 {
+body .experiences .institutions h1 {
   text-align: center;
 }
-body .experience .institutions .inst-logo {
+body .experiences .institutions .inst-logo {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-body .experience .institutions .inst-logo img {
+body .experiences .institutions .inst-logo img {
   border-radius: 100%;
   max-width: 30%;
   padding: 20px;
   height: auto;
   transition: max-width 0.5s;
 }
-body .experience .institutions .inst-logo img:hover {
+body .experiences .institutions .inst-logo img:hover {
   filter: grayscale(0%);
   transition: filter 0.5s;
   max-width: 35%;
   transition: max-width 0.5s;
 }
-body .experience .software {
+body .experiences .software {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -223,22 +223,22 @@ body .experience .software {
   border-bottom: none;
   border-right: none;
 }
-body .experience .software h1 {
+body .experiences .software h1 {
   text-align: center;
 }
-body .experience .software .soft-logo {
+body .experiences .software .soft-logo {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-body .experience .software .soft-logo img {
+body .experiences .software .soft-logo img {
   max-width: 16%;
   padding: 30px;
   height: auto;
   transition: max-width 0.5s;
 }
-body .experience .software .soft-logo img:hover {
+body .experiences .software .soft-logo img:hover {
   filter: grayscale(0%);
   transition: filter 0.5s;
   max-width: 20%;
