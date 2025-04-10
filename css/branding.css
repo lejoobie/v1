@@ -244,4 +244,22 @@ body .experiences .software .soft-logo img:hover {
   transition: filter 0.5s;
   max-width: 20%;
   transition: max-width 0.5s;
+}
+body .projects {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+}
+body .projects h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Rock Salt", cursive;
+  padding-bottom: 10px;
+}
+body .projects p {
+  text-align: center;
+  font-family: "Maven Pro", sans-serif;
+  padding-bottom: 20px;
+  font-size: 14pt;
 }/*# sourceMappingURL=branding.css.map */
