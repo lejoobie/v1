@@ -237,7 +237,7 @@ body .experiences .software .soft-logo {
   align-items: center;
 }
 body .experiences .software .soft-logo img {
-  max-width: 16%;
+  max-width: 15%;
   padding: 30px;
   height: auto;
   transition: max-width 0.5s;
@@ -245,7 +245,7 @@ body .experiences .software .soft-logo img {
 body .experiences .software .soft-logo img:hover {
   filter: grayscale(0%);
   transition: filter 0.5s;
-  max-width: 19%;
+  max-width: 17%;
   transition: max-width 0.5s;
 }
 body .projects {
