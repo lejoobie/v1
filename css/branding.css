@@ -185,7 +185,6 @@ body .experiences .institutions {
   flex-wrap: wrap;
   flex: 50%;
   width: 100%;
-  align-items: center;
   border: 1px solid #E79223;
   border-left: none;
   border-top: none;
@@ -200,17 +199,21 @@ body .experiences .institutions .inst-logo {
   justify-content: center;
   align-items: center;
 }
+body .experiences .institutions .inst-logo a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
 body .experiences .institutions .inst-logo img {
   border-radius: 100%;
-  max-width: 30%;
+  max-width: 27%;
   padding: 20px;
-  height: auto;
   transition: max-width 0.5s;
 }
 body .experiences .institutions .inst-logo img:hover {
   filter: grayscale(0%);
   transition: filter 0.5s;
-  max-width: 35%;
+  max-width: 30%;
   transition: max-width 0.5s;
 }
 body .experiences .software {
@@ -242,7 +245,7 @@ body .experiences .software .soft-logo img {
 body .experiences .software .soft-logo img:hover {
   filter: grayscale(0%);
   transition: filter 0.5s;
-  max-width: 20%;
+  max-width: 19%;
   transition: max-width 0.5s;
 }
 body .projects {
