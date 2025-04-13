@@ -58,9 +58,10 @@ nav {
   padding-left: 15px;
   width: 100%;
   height: 70px;
-  position: fixed;
+  position: sticky;
   top: 0;
   overflow: hidden;
+  z-index: 10;
   /* Navigation Menu */
   /* List Items */
 }
@@ -199,11 +200,6 @@ body .experiences .institutions .inst-logo {
   justify-content: center;
   align-items: center;
 }
-body .experiences .institutions .inst-logo a {
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-}
 body .experiences .institutions .inst-logo img {
   border-radius: 100%;
   max-width: 27%;
@@ -239,7 +235,6 @@ body .experiences .software .soft-logo {
 body .experiences .software .soft-logo img {
   max-width: 15%;
   padding: 30px;
-  height: auto;
   transition: max-width 0.5s;
 }
 body .experiences .software .soft-logo img:hover {
