@@ -229,22 +229,21 @@ body
                     transition: filter 0.5s
                     max-width: 17%
                     transition: max-width 0.5s
+
     .projects
         display: flex
         align-items: center
-        justify-content: center
-        flex-wrap: wrap
         flex-direction: column
 
         .gallery
-            display: flex
+            display: block
             flex-direction: column
-            flex-wrap: wrap
             justify-content: center
             align-items: center
 
             .modalButtons
                 display: flex
+                flex-direction: row
                 flex-wrap: wrap
                 justify-content: space-evenly
                 align-items: center
@@ -257,20 +256,98 @@ body
                 img:hover
                     transition: max-width 0.5s
                     max-width: 17%
+    h1
+        padding-top: 20px
+        text-align: center
+        font-weight: normal
+        font-family: $headingFont
+        padding-bottom: 10px
+        align-self: center
 
-            .modalContent
-                display: none
+    p
+        text-align: center
+        font-family: $mainFont
+        padding-bottom: 20px
+        font-size: 14pt
+        align-self: center
 
-        h1
-            padding-top: 20px
-            text-align: center
-            font-weight: normal
-            font-family: $headingFont
-            padding-bottom: 10px
-            align-self: center
-        p
-            text-align: center
-            font-family: $mainFont
-            padding-bottom: 20px
-            font-size: 14pt
-            align-self: center
+.personalContainer
+    background-color: rgba(0,0,0,0.4)
+    display: none
+    align-content: center
+    position: fixed
+    height: 100%
+    width: 100%
+    z-index: 5
+    top: 0
+    left: 0
+    .personalContent
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background-color: black
+        margin: 15% auto
+        padding: 10px
+        width: 50%
+        .personalHead
+            width: 90%
+            height: 90%
+            span
+                float: right
+                font-size: 36pt
+                color: white
+
+.albumContainer
+    background-color: rgba(0,0,0,0.4)
+    display: none
+    align-content: center
+    position: fixed
+    height: 100%
+    width: 100%
+    z-index: 5
+    top: 0
+    left: 0
+    .albumContent
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background-color: black
+        margin: 15% auto
+        padding: 20px
+        width: 50%
+        .albumHead
+            width: 90%
+            height: 90%
+            span
+                float: right
+                font-size: 36pt
+                color: white
+
+.sfContainer
+    background-color: rgba(0,0,0,0.4)
+    display: none
+    align-content: center
+    position: fixed
+    height: 100%
+    width: 100%
+    z-index: 5
+    top: 0
+    left: 0
+    .sfContent
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background-color: black
+        margin: 15% auto
+        padding: 20px
+        width: 50%
+        .sfHead
+            width: 90%
+            height: 90%
+            span
+                float: right
+                font-size: 36pt
+                color: white
