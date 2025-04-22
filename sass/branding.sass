@@ -17,7 +17,7 @@ $headingFont: "Rock Salt", cursive
 $baseColor: #1F1F1F
 $accent: #E79223
 $accent2: #141414
-$linkHov: #E88821
+$linkHov: #ff9f39
 
 // Default Text Styling
 h1
@@ -234,6 +234,11 @@ body
         display: flex
         align-items: center
         flex-direction: column
+        a
+            color: $accent
+            text-decoration: none
+            &:hover
+                color: $linkHov
 
         .gallery
             display: block

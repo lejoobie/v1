@@ -38,7 +38,7 @@ em {
 }
 
 em:hover {
-  color: #E88821;
+  color: #ff9f39;
   font-size: 18pt;
   transition: ease-in 0.5s;
 }
@@ -82,7 +82,7 @@ nav li a {
   text-align: center;
 }
 nav li a:hover {
-  color: #E88821;
+  color: #ff9f39;
   transition: ease 0.7s;
 }
 nav .logo {
@@ -247,6 +247,13 @@ body .projects {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+body .projects a {
+  color: #E79223;
+  text-decoration: none;
+}
+body .projects a:hover {
+  color: #ff9f39;
 }
 body .projects .gallery {
   display: block;
