@@ -62,6 +62,8 @@ nav {
   top: 0;
   overflow: hidden;
   z-index: 10;
+  border: none;
+  border-bottom: 1px solid #E79223;
   /* Navigation Menu */
   /* List Items */
 }
@@ -117,9 +119,6 @@ body .header {
   width: 100%;
   padding-top: 300px;
   padding-bottom: 400px;
-  border: 1px solid #E79223;
-  border-left: none;
-  border-right: none;
 }
 body .header h1 {
   font-size: 60pt;
@@ -144,9 +143,6 @@ body .about {
   width: 100%;
   align-items: center;
   background-color: #141414;
-  border-top: none;
-  border-left: none;
-  border-right: none;
 }
 body .about h1 {
   font-weight: normal;
@@ -170,7 +166,6 @@ body .experiences {
   display: flex;
   flex-direction: row;
   width: 100%;
-  border-block: 1px solid #E79223;
 }
 body .experiences h1 {
   font-weight: normal;
@@ -186,10 +181,6 @@ body .experiences .institutions {
   flex-wrap: wrap;
   flex: 50%;
   width: 100%;
-  border: 1px solid #E79223;
-  border-left: none;
-  border-top: none;
-  border-bottom: none;
 }
 body .experiences .institutions h1 {
   text-align: center;
@@ -218,10 +209,6 @@ body .experiences .software {
   flex-direction: column;
   flex: 50%;
   width: 100%;
-  border: 1px solid #E79223;
-  border-top: none;
-  border-bottom: none;
-  border-right: none;
 }
 body .experiences .software h1 {
   text-align: center;
@@ -247,6 +234,7 @@ body .projects {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: #141414;
 }
 body .projects a {
   color: #E79223;
