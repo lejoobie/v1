@@ -243,6 +243,10 @@ body .projects a {
 body .projects a:hover {
   color: #ff9f39;
 }
+body .projects a:visited {
+  color: #ff9f39;
+  text-decoration: none;
+}
 body .projects .gallery {
   display: block;
   flex-direction: column;
