@@ -262,14 +262,14 @@ body .projects .gallery .modalButtons {
   align-items: center;
 }
 body .projects .gallery .modalButtons img {
-  padding: 20px;
   align-self: center;
   transition: max-width 0.5s;
-  max-width: 15%;
+  max-width: 25%;
+  box-shadow: 5px 5px 20px;
 }
 body .projects .gallery .modalButtons img:hover {
   transition: max-width 0.5s;
-  max-width: 17%;
+  max-width: 27%;
 }
 body h1 {
   padding-top: 20px;
