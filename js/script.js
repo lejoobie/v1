@@ -36,32 +36,38 @@ let modalContent = {
 // Open function for the personalButton
 modalButton.personalButton.onclick = function(){
     modalContainer.personalContainer.style.display = 'block';
+    modalContainer.personalContainer.style.overflow = 'none';
 }
 
 // Open function for the albumButton
 modalButton.albumButton.onclick = function(){
     modalContainer.albumContainer.style.display = 'block';
+    modalContainer.albumContainer.style.overflow = 'none';
 }
 
 // Open function for the sfButton
 modalButton.sfButton.onclick = function(){
     modalContainer.sfContainer.style.display = 'block';
+    modalContainer.sfContainer.style.overflow = 'none';
 }
 
 // Close function for the personalSpan
 modalClose.personalClose.onclick = function(){
     modalContainer.personalContainer.style.display = 'none';
+    modalContainer.personalContainer.style.overflow = 'auto';
 }
 
 
 // Close function for the albumSpan
 modalClose.albumClose.onclick = function(){
     modalContainer.albumContainer.style.display = 'none';
+    modalContainer.albumContainer.style.overflow = 'auto';
 }
 
 // Close function for the sfSpan
 modalClose.sfClose.onclick = function(){
     modalContainer.sfContainer.style.display = 'none';
+    modalContainer.sfContainer.style.overflow = 'auto';
 }
 
 // Auto-close for the modals if user clicks out of bounds.
@@ -71,6 +77,7 @@ window.onclick = function(event) {
         let modal = modalContainer[key];
         if (event.target === modal) {
             modal.style.display = "none";
+            modal.style.overflow = "auto";
         }
     }
 }
