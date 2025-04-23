@@ -37,6 +37,7 @@ let modalContent = {
 modalButton.personalButton.onclick = function(){
     modalContainer.personalContainer.style.display = 'block';
     modalContainer.personalContainer.style.overflow = 'none';
+    document.body.style.overflow = 'hidden';
     document.getElementById('navigation').style.display = 'none';
 }
 
@@ -44,6 +45,7 @@ modalButton.personalButton.onclick = function(){
 modalButton.albumButton.onclick = function(){
     modalContainer.albumContainer.style.display = 'block';
     modalContainer.albumContainer.style.overflow = 'none';
+    document.body.style.overflow = 'hidden';
     document.getElementById('navigation').style.display = 'none';
 }
 
@@ -51,6 +53,7 @@ modalButton.albumButton.onclick = function(){
 modalButton.sfButton.onclick = function(){
     modalContainer.sfContainer.style.display = 'block';
     modalContainer.sfContainer.style.overflow = 'none';
+    document.body.style.overflow = 'hidden';
     document.getElementById('navigation').style.display = 'none';
 }
 
@@ -58,6 +61,7 @@ modalButton.sfButton.onclick = function(){
 modalClose.personalClose.onclick = function(){
     modalContainer.personalContainer.style.display = 'none';
     modalContainer.personalContainer.style.overflow = 'auto';
+    document.body.style.overflow = 'auto';
     document.getElementById('navigation').style.display = 'flex';
 }
 
@@ -66,6 +70,7 @@ modalClose.personalClose.onclick = function(){
 modalClose.albumClose.onclick = function(){
     modalContainer.albumContainer.style.display = 'none';
     modalContainer.albumContainer.style.overflow = 'auto';
+    document.body.style.overflow = 'auto';
     document.getElementById('navigation').style.display = 'flex';
 }
 
@@ -73,6 +78,7 @@ modalClose.albumClose.onclick = function(){
 modalClose.sfClose.onclick = function(){
     modalContainer.sfContainer.style.display = 'none';
     modalContainer.sfContainer.style.overflow = 'auto';
+    document.body.style.overflow = 'auto';
     document.getElementById('navigation').style.display = 'flex';
 }
 
@@ -83,7 +89,8 @@ window.onclick = function(event) {
         let modal = modalContainer[key];
         if (event.target === modal) {
             modal.style.display = "none";
-            modal.style.overflow = "auto";
+            modal.style.overflow = "none";
+            document.body.style.overflow = 'auto';
             document.getElementById('navigation').style.display = 'flex';
         }
     }
