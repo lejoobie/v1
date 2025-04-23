@@ -289,6 +289,7 @@ body p {
 .personalContainer {
   background-color: rgba(0, 0, 0, 0.4);
   display: none;
+  overflow: auto;
   align-content: center;
   position: fixed;
   height: 100%;
@@ -306,6 +307,11 @@ body p {
   margin: 15% auto;
   padding: 10px;
   width: 50%;
+  border: 2px solid rgb(121, 0, 22);
+}
+.personalContainer .personalContent img {
+  padding: 20px;
+  max-width: 100%;
 }
 .personalContainer .personalContent .personalHead {
   width: 90%;
@@ -316,10 +322,18 @@ body p {
   font-size: 36pt;
   color: white;
 }
+.personalContainer .personalContent .personalBody {
+  width: 90%;
+}
+.personalContainer .personalContent .personalBody hr {
+  width: 95%;
+  justify-self: center;
+}
 
 .albumContainer {
   background-color: rgba(0, 0, 0, 0.4);
   display: none;
+  overflow: auto;
   align-content: center;
   position: fixed;
   height: 100%;
@@ -351,6 +365,7 @@ body p {
 .sfContainer {
   background-color: rgba(0, 0, 0, 0.4);
   display: none;
+  overflow: auto;
   align-content: center;
   position: fixed;
   height: 100%;

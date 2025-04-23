@@ -267,6 +267,7 @@ body
 .personalContainer
     background-color: rgba(0,0,0,0.4)
     display: none
+    overflow: auto
     align-content: center
     position: fixed
     height: 100%
@@ -283,6 +284,10 @@ body
         margin: 15% auto
         padding: 10px
         width: 50%
+        border: 2px solid rgb(121, 0, 22)
+        img
+            padding: 20px
+            max-width: 100%
         .personalHead
             width: 90%
             height: 90%
@@ -290,10 +295,16 @@ body
                 float: right
                 font-size: 36pt
                 color: white
+        .personalBody
+            width: 90%
+            hr
+                width: 95%
+                justify-self: center
 
 .albumContainer
     background-color: rgba(0,0,0,0.4)
     display: none
+    overflow: auto
     align-content: center
     position: fixed
     height: 100%
@@ -321,6 +332,7 @@ body
 .sfContainer
     background-color: rgba(0,0,0,0.4)
     display: none
+    overflow: auto
     align-content: center
     position: fixed
     height: 100%
