@@ -307,7 +307,7 @@ body p {
   margin: auto;
   padding: 10px;
   width: 50%;
-  border: 2px solid rgb(121, 0, 22);
+  border: 2px solid rgb(214, 29, 41);
 }
 .personalContainer .personalContent img {
   padding: 20px;
@@ -323,7 +323,7 @@ body p {
   color: white;
 }
 .personalContainer .personalContent .personalBody {
-  width: 90%;
+  width: 100%;
 }
 .personalContainer .personalContent .personalBody hr {
   width: 95%;
@@ -348,9 +348,10 @@ body p {
   justify-content: center;
   align-items: center;
   background-color: black;
-  margin: 15% auto;
+  margin: auto;
   padding: 20px;
   width: 50%;
+  border: 2px solid #A588F5;
 }
 .albumContainer .albumContent .albumHead {
   width: 90%;
@@ -360,6 +361,16 @@ body p {
   float: right;
   font-size: 36pt;
   color: white;
+}
+.albumContainer .albumContent .albumBody {
+  width: 90%;
+}
+.albumContainer .albumContent .albumBody img {
+  max-width: 100%;
+}
+.albumContainer .albumContent .albumBody hr {
+  width: 95%;
+  justify-self: center;
 }
 
 .sfContainer {
@@ -380,9 +391,10 @@ body p {
   justify-content: center;
   align-items: center;
   background-color: black;
-  margin: 15% auto;
+  margin: auto;
   padding: 20px;
   width: 50%;
+  border: 2px solid rgb(255, 137, 91);
 }
 .sfContainer .sfContent .sfHead {
   width: 90%;
@@ -392,4 +404,15 @@ body p {
   float: right;
   font-size: 36pt;
   color: white;
+}
+.sfContainer .sfContent .sfBody {
+  width: 90%;
+}
+.sfContainer .sfContent .sfBody img {
+  padding-top: 20px;
+  max-width: 100%;
+}
+.sfContainer .sfContent .sfBody hr {
+  width: 100%;
+  justify-self: center;
 }/*# sourceMappingURL=branding.css.map */
