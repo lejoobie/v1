@@ -233,6 +233,7 @@ body .projects {
   align-items: center;
   flex-direction: column;
   background-color: #141414;
+  padding-bottom: 30px;
 }
 body .projects a {
   color: #E79223;
