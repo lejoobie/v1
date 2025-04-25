@@ -1,5 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-// As I understand it, modals are comprised of three major parts:
+// As I understand it, modals are comprised of three major parts
+
+// For the sake of intuative design, Im going to make objects
+// to recognize and hold the body objects of the modals so that
+// JS can determine if the user ever clicks outside of them later
+// for a quick exit.
 
 // The modal container, what will be opened.
 let modalContainer = {
@@ -21,11 +26,6 @@ let modalClose = {
     sfClose: document.getElementById("sfSpan"),
     personalClose: document.getElementById("personalSpan")
 }
-
-// For the sake of intuative design, Im going to make an object
-// to recognize and hold the body objects of the modals so that
-// JS can determine if the user ever clicks outside of them later
-// for a quick exit.
 
 let modalContent = {
     albumBody: document.getElementById("albumBody"),

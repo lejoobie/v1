@@ -297,12 +297,15 @@ footer .socials {
   flex-direction: row;
   justify-content: center;
 }
-footer .socials .Button {
-  padding: 15px;
-}
-footer input {
+footer .socials input {
+  padding: 10px;
   width: auto;
-  height: 80px;
+  max-height: 80px;
+  transition: max-height 0.3s;
+}
+footer .socials input:hover {
+  max-height: 100px;
+  transition: max-height 0.3s;
 }
 
 .personalContainer {
