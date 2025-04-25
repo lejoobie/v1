@@ -292,6 +292,9 @@ footer {
   width: 100%;
   background-color: #181818;
 }
+footer h1 {
+  font-size: 18pt;
+}
 footer .socials {
   display: flex;
   flex-direction: row;
@@ -300,12 +303,12 @@ footer .socials {
 footer .socials input {
   padding: 10px;
   width: auto;
-  max-height: 80px;
-  transition: max-height 0.3s;
+  max-height: 70px;
+  transition: max-height 0.5s;
 }
 footer .socials input:hover {
-  max-height: 100px;
-  transition: max-height 0.3s;
+  max-height: 80px;
+  transition: max-height 0.5s;
 }
 
 .personalContainer {
