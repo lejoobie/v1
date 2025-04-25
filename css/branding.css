@@ -52,7 +52,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1F1F1F;
+  background-color: #181818;
   font-family: "Maven Pro", sans-serif;
   padding-right: 15px;
   padding-left: 15px;
@@ -62,8 +62,6 @@ nav {
   top: 0;
   overflow: hidden;
   z-index: 10;
-  border: none;
-  border-bottom: 1px solid #E79223;
   /* Navigation Menu */
   /* List Items */
 }
@@ -286,15 +284,24 @@ body p {
   align-self: center;
 }
 
-footer .Button {
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: #181818;
+}
+footer .socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer .socials .Button {
   padding: 15px;
 }
 footer input {
   width: auto;
   height: 80px;
-}
-footer p {
-  padding: 15px;
 }
 
 .personalContainer {

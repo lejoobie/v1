@@ -17,6 +17,7 @@ $headingFont: "Rock Salt", cursive
 $baseColor: #1F1F1F
 $accent: #E79223
 $accent2: #141414
+$accent3: #181818
 $linkHov: #ff9f39
 
 // Default Text Styling
@@ -58,7 +59,7 @@ nav
     display: flex
     justify-content: space-between
     align-items: center
-    background-color: $baseColor
+    background-color: $accent3
     font-family: $mainFont
     padding-right: 15px
     padding-left: 15px
@@ -68,8 +69,6 @@ nav
     top: 0
     overflow: hidden
     z-index: 10
-    border: none
-    border-bottom: 1px solid $accent
     /* Navigation Menu */
     ul
         list-style-type: none
@@ -265,13 +264,21 @@ body
         align-self: center
 
 footer
-    .Button
-        padding: 15px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    width: 100%
+    background-color: $accent3
+    .socials
+        display: flex
+        flex-direction: row
+        justify-content: center
+        .Button
+            padding: 15px
     input
         width: auto
         height: 80px
-    p
-        padding: 15px
+
         
 .personalContainer
     background-color: rgba(0,0,0,0.4)
