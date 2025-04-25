@@ -39,6 +39,7 @@ modalButton.personalButton.onclick = function(){
     modalContainer.personalContainer.style.overflow = 'none';
     document.body.style.overflow = 'hidden';
     document.getElementById('navigation').style.display = 'none';
+    modalContainer.personalContainer.scrollTop = 0;
 }
 
 // Open function for the albumButton
@@ -47,6 +48,7 @@ modalButton.albumButton.onclick = function(){
     modalContainer.albumContainer.style.overflow = 'none';
     document.body.style.overflow = 'hidden';
     document.getElementById('navigation').style.display = 'none';
+    modalContainer.albumContainer.scrollTop = 0;
 }
 
 // Open function for the sfButton
@@ -55,6 +57,7 @@ modalButton.sfButton.onclick = function(){
     modalContainer.sfContainer.style.overflow = 'none';
     document.body.style.overflow = 'hidden';
     document.getElementById('navigation').style.display = 'none';
+    modalContainer.sfContainer.scrollTop = 0;
 }
 
 // Close function for the personalSpan
