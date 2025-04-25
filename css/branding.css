@@ -286,9 +286,15 @@ body p {
   align-self: center;
 }
 
+footer .Button {
+  padding: 15px;
+}
 footer input {
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: 80px;
+}
+footer p {
+  padding: 15px;
 }
 
 .personalContainer {
